@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jerlin Jitto | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Jerlin Jitto, Full Stack Developer working with Python, Django and React.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#home" class="logo">Jerlin Jitto<span>.</span></a>
+  <nav id="menu">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+    <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact" class="pill">Contact</a>
+  </nav>
+  <button id="burger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text reveal">
+    <span class="tag"><i class="fa-solid fa-circle"></i> Open to work</span>
+    <h1>Hi, I'm <em>Jerlin Jitto</em></h1>
+    <p class="role">I'm a <span id="typed"></span><b class="caret">|</b></p>
+    <p class="lead">I build responsive web applications, secure backend APIs,and database-driven solutions using modern technologies.I enjoy turning ideas into practical, user-friendly applicationswhile continuously learning and improving my development skills.</p>
+    <div class="cta">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn ghost">Hire Me</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/Jerlinjitto" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://linkedin.com/in/jerlin-jitto-v12" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://instagram.com/_gto.v_" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://facebook.com/vjerlin.jitto" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="jerlinjv390@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+  <div class="hero-photo reveal">
+    <div class="ring"><img src="assets/jitto.jpg" alt="Jerlin Jitto"></div>
+  </div>
+</section>
+
+<section id="about" class="reveal">
+  <h2><small>01</small> About Me</h2>
+  
+    <p>I’m a Full Stack Developer passionate about building modern, responsive, and user-friendly web applications. I have hands-on experience with Python, Django, React, JavaScript, HTML, CSS, MySQL, and Oracle, allowing me to work across both frontend and backend development.Through my practical projects, I’ve gained experience in developing RESTful APIs, creating responsive user interfaces, integrating frontend and backend systems, implementing authentication, and managing databases. I enjoy solving real-world problems and turning ideas into functional, reliable, and user-focused applications.</p>
+    <p>I completed my BSc in Computer Science and further strengthened my technical skills through a Python Full Stack Development course. I’m passionate about exploring new technologies, improving my problem-solving abilities, and writing clean, efficient, scalable, and maintainable code.I’m looking for an opportunity to apply my technical skills, contribute to real-world projects, collaborate with experienced developers, and grow professionally while continuously learning and expanding my knowledge in technology.</p>
+      <div class="stats">
+      <div><strong>Experience</strong><span>Fresher</span></div>
+      <div><strong>Projects</strong><span>3</span></div>
+      <div><strong>Specialization</strong><span>Full Stack Development</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <h2><small>02</small>Skills</h2>
+  <div class="skills">
+    <div class="skill"><i class="fa-brands fa-python"></i><h3>Python</h3><div class="bar"><i style="--w:85%"></i></div></div>
+    <div class="skill"><i class="fa-solid fa-server"></i><h3>Django</h3><div class="bar"><i style="--w:80%"></i></div></div>
+    <div class="skill"><i class="fa-brands fa-react"></i><h3>React.js</h3><div class="bar"><i style="--w:80%"></i></div></div>
+    <div class="skill"><i class="fa-solid fa-database"></i><h3>MySQL</h3><div class="bar"><i style="--w:85%"></i></div></div>
+    <div class="skill"><i class="fa-solid fa-database"></i><h3>Oracle</h3><div class="bar"><i style="--w:80%"></i></div></div>
+    <div class="skill"><i class="fa-brands fa-html5"></i><h3>HTML</h3><div class="bar"><i style="--w:90%"></i></div></div>
+    <div class="skill"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3><div class="bar"><i style="--w:85%"></i></div></div>
+    <div class="skill"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><div class="bar"><i style="--w:80%"></i></div></div>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+
+  <h2><small>03</small> Projects</h2>
+
+  <p class="hint">
+    <i class="fa-regular fa-hand-pointer"></i>
+    Click a project image to read the full project details.
+  </p>
+
+  <div class="projects">
+    <!-- =========================================
+         01. CLINICAL MANAGEMENT SYSTEM
+    ========================================== -->
+    <article class="project">
+      <button
+        class="thumb"
+        data-open="clinical"
+        aria-label="Open Clinical Management System details">
+        <img src="assets/CMS Project Image.png" alt="Clinical Management System">
+        <span class="overlay">
+          <i class="fa-solid fa-expand"></i>
+          View details
+        </span>
+      </button>
+      <div class="p-body">
+        <h3>Clinical Management System</h3>
+        <p> Full stack web application to manage patients, appointments, consultations, prescriptions, laboratory services, pharmacy, and billing in one integrated platform.</p>
+        <div class="stack">
+          <span>Django</span>
+          <span>React.js</span>
+          <span>REST API</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- =========================================
+         02. MOVIE TICKET BOOKING SYSTEM
+    ========================================== -->
+    <article class="project">
+      <button
+        class="thumb"
+        data-open="movie"
+        aria-label="Open Movie Ticket Booking System details">
+        <img src="assets/MTB Project Image.png" alt="Movie Ticket Booking System">
+        <span class="overlay">
+          <i class="fa-solid fa-expand"></i>
+          View details
+        </span>
+      </button>
+      <div class="p-body">
+        <h3>Movie Ticket Booking System</h3>
+        <p>Full stack web application to browse theatres and movies, choose show timings, select seats, and book movie tickets online through a responsive interface.</p>
+        <div class="stack">
+          <span>Django</span>
+          <span>React.js</span>
+          <span>FAST API</span>
+        </div>
+      </div>
+    </article>
+    <!-- =========================================
+         03. HOSPITAL MANAGEMENT SYSTEM
+    ========================================== -->
+    <article class="project">
+      <button
+        class="thumb"
+        data-open="hospital"
+        aria-label="Open Hospital Management System details">
+        <img src="assets/HMS Project Image.png" alt="Hospital Management System">
+        <span class="overlay">
+          <i class="fa-solid fa-expand"></i>
+          View details
+        </span>
+      </button>
+      <div class="p-body">
+        <h3>Hospital Management System</h3>
+        <p>Web application for managing patients, doctors, appointments, prescriptions, and essential hospital operations efficiently through a simple and user-friendly interface.</p>
+        <div class="stack">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+    </article>
+    <!-- =========================================
+         04. MORE PROJECTS COMING SOON
+    ========================================== -->
+    <article class="project soon">
+      <div class="thumb static">
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="p-body">
+        <h3>More Coming Soon</h3>
+        <p>New projects and experiments will be added here as I continue building and learning.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="education" class="reveal">
+  <h2><small>04</small> Education</h2>
+  <div class="timeline">
+    <div class="t-item"><span class="dot"></span><h3>Full Stack Development</h3><p>faith Infotech Academy, Technopark,Thiruvananthapuram . 2025 – 2026</p></div>
+    <div class="t-item"><span class="dot"></span><h3>BSC Computer Science</h3><p>St.Jude's College of Arts and science, Thoothoor . 2022 – 2025</p></div>
+    <div class="t-item"><span class="dot"></span><h3>Higher Secondary</h3><p>St.Aloysius Higher Secondary School, Marthandanthurai . 2020 – 2022</p></div>
+    <div class="t-item"><span class="dot"></span><h3>SSLC</h3><p>St.Nicholas High School, Neerody . 2020</p></div>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <h2><small>05</small> Contact</h2>
+  <div class="contact-grid">
+    <div class="c-cards">
+      <a class="c-card" href="mailto:jerlinjv390@gmail.com"><i class="fa-solid fa-envelope"></i><div><span>Email</span><b>jerlinjv390@gmail.com</b></div></a>
+      <a class="c-card" href="tel:+919751429308"><i class="fa-solid fa-phone"></i><div><span>Phone</span><b>+91 97514 29308</b></div></a>
+      <a class="c-card" href="https://wa.me/919751429308" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><div><span>WhatsApp</span><b>Chat on WhatsApp</b></div></a>
+    </div>
+    <form id="mailForm" class="form">
+      <input id="fName" placeholder="Your name" required>
+      <input id="fEmail" type="email" placeholder="Your email" required>
+      <textarea id="fMsg" rows="4" placeholder="Your message" required></textarea>
+      <button class="btn primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send via Gmail</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>&copy; <span id="yr"></span> Jerlin Jitto. Built with passion.</footer>
+
+<a id="gchat" class="gchat" href="#" aria-label="Chat on Gmail"><i class="fa-solid fa-envelope"></i><span>Chat on Gmail</span></a>
+
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="sheet" role="dialog" aria-modal="true">
+    <button class="close" id="mClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <img id="mImg" alt="">
+    <div class="m-body">
+      <h3 id="mTitle"></h3>
+      <h4>Project Definition</h4>
+      <p id="mDesc"></p>
+      <h4>Key Features</h4>
+      <ul id="mFeat"></ul>
+      <h4>Technologies</h4>
+      <div class="stack" id="mStack"></div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

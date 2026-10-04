@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1030"/><stop offset="1" stop-color="#5b1d3a"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#g)"/>
+<path d="M120 90 Q320 40 520 90" stroke="#f5b942" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M150 110 Q320 70 490 110 L520 150 Q320 110 120 150Z" fill="#f5b942" opacity=".25"/>
+<g fill="#ffffff" opacity=".9">
+<rect x="150" y="190" width="28" height="24" rx="6"/><rect x="190" y="190" width="28" height="24" rx="6"/><rect x="230" y="190" width="28" height="24" rx="6"/><rect x="270" y="190" width="28" height="24" rx="6" fill="#f5b942"/><rect x="310" y="190" width="28" height="24" rx="6" fill="#f5b942"/><rect x="350" y="190" width="28" height="24" rx="6"/><rect x="390" y="190" width="28" height="24" rx="6"/><rect x="430" y="190" width="28" height="24" rx="6"/><rect x="470" y="190" width="28" height="24" rx="6"/>
+<rect x="150" y="226" width="28" height="24" rx="6"/><rect x="190" y="226" width="28" height="24" rx="6"/><rect x="230" y="226" width="28" height="24" rx="6" opacity=".25"/><rect x="270" y="226" width="28" height="24" rx="6"/><rect x="310" y="226" width="28" height="24" rx="6"/><rect x="350" y="226" width="28" height="24" rx="6"/><rect x="390" y="226" width="28" height="24" rx="6" opacity=".25"/><rect x="430" y="226" width="28" height="24" rx="6"/><rect x="470" y="226" width="28" height="24" rx="6"/>
+</g>
+<g transform="translate(200 285)"><rect width="240" height="70" rx="12" fill="#fff"/><circle cx="0" cy="35" r="10" fill="#2a1038"/><circle cx="240" cy="35" r="10" fill="#2a1038"/><line x1="170" y1="10" x2="170" y2="60" stroke="#c9c9d6" stroke-dasharray="4 4"/>
+<text x="22" y="32" font-family="Arial" font-weight="700" font-size="18" fill="#2a1038">CINEMA TICKET</text><text x="22" y="52" font-family="Arial" font-size="13" fill="#6b6b80">Seats H4, H5 · 7:30 PM</text><text x="185" y="42" font-family="Arial" font-weight="700" font-size="16" fill="#5b1d3a">₹ 360</text></g>
+</svg>
