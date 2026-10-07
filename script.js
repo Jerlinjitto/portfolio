@@ -82,8 +82,7 @@ const PROJECTS = {
             "Django",
             "Django REST Framework",
             "React.js",
-            "MySQL",
-            "Fast Api"
+            "MySQL"
         ]
     },
 
